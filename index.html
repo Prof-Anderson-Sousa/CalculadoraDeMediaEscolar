@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/site.webmanifest">
+    <title>Calcule sua Média Escolar</title>
+</head>
+<body>
+    <header class="header">
+        <H1 class="headerTitle">Calculadora de Média Escolar</H1>
+    </header>
+    <main id="container">
+        <section id="principal">
+            <div class="logo">
+                <img src="./assets/img/calculadora.png" alt="">
+            </div>
+            <p class="information">Preencha os campos com as notas das avaliações</p>
+            <div class="notas">
+                <label for="">Nota 1
+                    <input type="number" name="nota1" id="nota1" value="0" min="0" max="10">
+                </label>
+                <label for="">Nota 2
+                    <input type="number" name="nota2" id="nota2" value="0" min="0" max="10">
+                </label>
+                <label for="">Nota 3
+                    <input type="number" name="nota3" id="nota3" value="0" min="0" max="10">
+                </label>
+                <label for="">Nota 4
+                    <input type="number" name="nota4" id="nota4" value="0" min="0" max="10">
+                </label> 
+            </div>
+            <div class="button">
+                <button type="menu" class="click">Calcular Média</button>
+            </div>
+            <div id="output">
+                <div class="resultFinal">
+                    <img class="reprovado" src="./assets/img/reproved.png" alt="">
+                    <img class="aprovado" src="./assets/img/green-tick-icon.png" alt="">
+                </div>
+                <div class="break"></div>
+                <div class="result1">
+
+                </div>
+                <div class="result2">
+
+                </div>  
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Desenvolvido com ❤️ por Anderson Sousa</h2>
+    </footer>
+<script src="./assets/script/script.js"></script> 
+</body>
+</html>

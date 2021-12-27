@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Montserrat:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/assets/img/school.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  display: flex;
+  background: #252525;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header > .headerTitle {
+  margin: auto;
+  color: #fff;
+}
+
+#container > #principal {
+  overflow: hidden;
+  margin: auto;
+  margin-top: 50px;
+  width: 400px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#container > #principal > p {
+  text-align: center;
+  color: #000;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#container > #principal > .logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#container > #principal > .logo > img {
+  width: 130px;
+}
+
+.notas {
+  display: flex;
+  width: 64%;
+  margin: auto;
+}
+
+label {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: center;
+  color: #000;
+}
+
+input {
+  display: block;
+  width: 55px;
+  height: 30px;
+  margin-right: 100px;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+input:focus {
+  font-weight: bold;
+  outline: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.button > button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  border-radius: 5px;
+  background: #1861a9;
+  color: #fff;
+  padding: 5px 60px;
+  cursor: pointer;
+  border: transparent solid 2px;
+}
+
+.button > button:hover {
+  transition: all ease 300ms;
+  border: #fff solid 2px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background: rgb(204, 0, 198);
+  background: linear-gradient(
+    201deg,
+    rgba(204, 0, 198, 1) 28%,
+    rgba(0, 8, 221, 1) 100%
+  );
+  height: 35px;
+  margin-top: 22px;
+}
+
+footer > h2 {
+  font-size: 18px;
+  margin: auto;
+  color: #fff;
+}
+
+#output {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.aprovado {
+  margin: auto;
+  display: none;
+  width: 100px;
+}
+
+.reprovado {
+  margin: auto;
+  display: none;
+  width: 100px;
+}
+
+.break {
+  margin-top: 10px;
+}
+
+/* Media Query - Mobile Responsive */
+
+@media only screen and (max-height: 1100px) {
+  footer {
+    margin-top: 320px;
+    height: 60px;
+    width: 100%;
+  }
+
+  #container > #principal {
+    margin-top: 100px;
+    width: 500px;
+    height: 550px;
+  }
+
+  .notas {
+    margin-left: 123px;
+  }
+
+  .break {
+    margin-top: 30px;
+  }
+
+  #container > #principal > p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-height: 969px) {
+  footer {
+    margin-top: 209px;
+    height: 60px;
+    width: 100%;
+  }
+
+  #container > #principal {
+    margin-top: 100px;
+    width: 500px;
+    height: 550px;
+  }
+
+  .notas {
+    margin-left: 123px;
+  }
+
+  .break {
+    margin-top: 30px;
+  }
+
+  #container > #principal > p {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-height: 823px) {
+  footer {
+    margin-top: 163px;
+    height: 60px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .headerTitle {
+    font-size: 18px;
+  }
+
+  #container > #principal {
+    width: 320px;
+  }
+
+  .notas {
+    margin-left: 32px;
+  }
+
+  footer {
+    margin-top: 75px;
+    height: 60px;
+    width: 100%;
+  }
+
+  footer > h2 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  footer > h2 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  footer > h2 {
+    font-size: 13px;
+  }
+
+  #container > #principal {
+    width: 310px;
+  }
+}
