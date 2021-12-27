@@ -1,30 +1,30 @@
 # Anderson Sousa - Desenvolvimentos Web
 
-Projeto desenvolvido Acompanhando o Curso Programador Front-End do Programador BR.
+Informe suas Notas dos Trimestres ou Módulos e Receba seu Resultado na Hora.
 
 ## O Projeto
 
-- Página de Inscrição em WorkShop, Com o Intuito de Captar Algumas Informações do Tipo: Nome, E-mail, Estado.
-- Os Dados Foram Captados Através de uma API "MailChimp".
-- O Mailchimp é uma plataforma de envio de e-mails, voltada principalmente para campanhas de marketing.
+- Projeto Realizado para Desenvolvimento Pessoal, a ideia é inserir nos 4 campos as notas dos alunos e obter o seu resultado final, projeto pode ser adaptado a necessidade do usuário.
 
 ### Estrutura de arquivos
 
 - README.md
 - index.html
-- /IMG
-- /CSS
+- ./assets
+  - /img
+  - /style
+  - /script
 
 ### Fonte
 
-- "Arial", Helvetica, sans-serif;
+- "Montserrat", sans-serif;
 
 ### Cores
+
 - Preto: #000;
 - Branco-Fontes: #fff;
-- Branco-Formulário: #ffffffbb;
-- Azul Claro: #48c5ce;
-- Cinza: #202121;
+- Rosa: rgba(204, 0, 198, 1) 28%;
+- Azul: rgba(0, 8, 221, 1) 100%;
 
 ## Layout
 
@@ -32,6 +32,7 @@ Projeto desenvolvido Acompanhando o Curso Programador Front-End do Programador B
 - [Página de Inscrição WorkShop Mobile](./IMG/layout_mobile.png)
 
 ## Referências
+
 - [W3Schools referência HTML](https://www.w3schools.com/tags/default.asp)
 - [W3Schools referência CSS](https://www.w3schools.com/cssref/default.asp)
-- [MailChimp](https://mailchimp.com/pt-br/)
+- [W3Schools referência JavaScript](https://www.w3schools.com/cssref/default.asp)
