@@ -154,13 +154,12 @@ footer > h2 {
 
 @media only screen and (max-height: 1100px) {
   footer {
-    margin-top: 320px;
+    margin-top: 370px;
     height: 60px;
     width: 100%;
   }
 
   #container > #principal {
-    margin-top: 100px;
     width: 500px;
     height: 550px;
   }
@@ -212,12 +211,27 @@ footer > h2 {
   }
 }
 
+@media only screen and (max-height: 657px) {
+  #container > #principal {
+    margin-top: 18px;
+    width: 500px;
+    height: 513px;
+  }
+
+  footer {
+    margin-top: 16px;
+    height: 60px;
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 414px) {
   .headerTitle {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   #container > #principal {
+    margin-top: 30px;
     width: 320px;
   }
 
@@ -226,7 +240,7 @@ footer > h2 {
   }
 
   footer {
-    margin-top: 75px;
+    margin-top: 45px;
     height: 60px;
     width: 100%;
   }
@@ -236,13 +250,27 @@ footer > h2 {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
+  .headerTitle {
+    font-size: 22px;
+  }
+
+  footer {
+    margin-top: 123px;
+    height: 60px;
+    width: 100%;
+  }
+
   footer > h2 {
     font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 320px) {
+  .headerTitle {
+    font-size: 20px;
+  }
+
   footer > h2 {
     font-size: 13px;
   }

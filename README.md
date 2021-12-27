@@ -28,8 +28,8 @@ Informe suas Notas dos Trimestres ou Módulos e Receba seu Resultado na Hora.
 
 ## Layout
 
-- [Página de Inscrição WorkShop Desktop](./IMG/layout_desktop.png)
-- [Página de Inscrição WorkShop Mobile](./IMG/layout_mobile.png)
+- [Página de Inscrição WorkShop Desktop](./assets/img/layoutDesktop.png)
+- [Página de Inscrição WorkShop Mobile](.assets/img/layoutMobile.png)
 
 ## Referências
 
