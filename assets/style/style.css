@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(/assets/img/school.jpg);
+  background-image: url(../img/school.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Montserrat", sans-serif;
